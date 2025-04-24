@@ -7,9 +7,9 @@ def convert_temp():
         f = (float(c) * 4.5) + 32
         message.config(text='↓ ferenhiet(f°) ↓\n'+str(f),bg = 'green')
     else:
-        message.config(text='Error\nvalue not found',bg = 'red')        
+        message.config(text='Error\nvalue not found',bg = 'red')
 gui = Tk()
-gui.title('celcius →  farenhiet')
+gui.title('celcius → farenhiet')
 gui.configure(bg='light blue')
 description = Label(text='celcius → → farenhiet',font=font.Font(family='impact',size = 20),fg='black',bg='grey')
 description.pack()
